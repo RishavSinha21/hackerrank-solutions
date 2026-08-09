@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-08-09, 05:08 p.m.
+// Submitted   2026-08-09, 05:44 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -39,8 +39,7 @@ class Result {
           map.put(b,map.getOrDefault(b, 0)+1);
           }
           for(Map.Entry<Integer,Integer> entry:map.entrySet()){
-            count+=entry.getValue()/2;
-            
+            count+=entry.getValue()/2; 
           }
           return count;
     }

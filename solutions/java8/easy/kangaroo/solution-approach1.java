@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-08-09, 11:52 p.m.
+// Submitted   2026-08-09, 11:54 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -35,9 +35,8 @@ class Result {
      */
 
     public static String kangaroo(int x1, int v1, int x2, int v2) {
-       
        if(v1-v2==0){return x1-x2==0 ? "YES":"NO";}
-       return ((x2-x1)%(v1-v2)==0 && (x2-x1)/(v1-v2) >= 0)?"YES" :"NO";
+       return ((x2-x1)%(v1-v2)==0 && (x2-x1)/(v1-v2)>=0)?"YES":"NO";
     }
 }
 

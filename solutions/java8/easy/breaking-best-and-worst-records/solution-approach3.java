@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-08-09, 06:48 p.m.
+// Submitted   2026-08-09, 06:49 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -41,7 +41,7 @@ class Result {
             minc+=1;
         }
     }
-    return Arrays.asList(maxc, minc);
+    return Arrays.asList(maxc,minc);
     }
 }
 

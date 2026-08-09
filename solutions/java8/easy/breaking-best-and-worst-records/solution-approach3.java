@@ -32,12 +32,12 @@ class Result {
 
     public static List<Integer> breakingRecords(List<Integer> scores) {
     int max = scores.get(0), min = scores.get(0),maxc= 0,minc = 0;
-    for (int i = 1;i <scores.size();i++) {
+    for (int i=1;i<scores.size();i++) {
         if (scores.get(i)>max) {
-            max = scores.get(i);
+            max=scores.get(i);
             maxc+=1;
         } else if (scores.get(i)<min) {
-            min = scores.get(i);
+            min=scores.get(i);
             minc+=1;
         }
     }

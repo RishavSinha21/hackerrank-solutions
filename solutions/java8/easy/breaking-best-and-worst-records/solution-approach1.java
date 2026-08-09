@@ -1,3 +1,6 @@
+//***************************************************           Solution has O(N) size complexity and O(N) time complexity         ******************************************************************************
+
+
 // ──────────────────────────────────────────────────
 // Link        https://www.hackerrank.com/contests/mountblue-technologies/challenges/breaking-best-and-worst-records/problem?isFullScreen=true
 // Problem     Breaking the Records

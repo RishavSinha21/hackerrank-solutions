@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-08-11, 12:52 p.m.
+// Submitted   2026-08-11, 12:53 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -45,7 +45,6 @@ class Result {
     }
     public static int[] sort(int[] array,int low,int high){
         if(low<high){
-            
             int pivotindex=parts(array,low,high);
             sort(array,low,pivotindex-1);
             sort(array,pivotindex+1,high);

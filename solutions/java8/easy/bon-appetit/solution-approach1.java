@@ -34,7 +34,6 @@ class Result {
 
     public static void bonAppetit(List<Integer> bill, int k, int b) {
       int annasum=((bill.stream().mapToInt(Integer::intValue).sum())-bill.get(k))/2;
-     
       if(annasum<b){
         System.out.println(b-annasum);
       }else {

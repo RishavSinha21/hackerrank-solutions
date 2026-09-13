@@ -1,2 +1,2 @@
 # hackerrank-solutions
-Coding solutions — auto-documented by PrepPush
+The Solutions are of a company assessment round name MountBlue Technologies.

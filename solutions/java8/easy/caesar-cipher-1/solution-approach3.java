@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-09-16, 07:29 p.m.
+// Submitted   2026-09-16, 07:30 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -29,9 +29,8 @@ class Result {
         if(k==0){
             return s;
         }
-        else if(c>=97 && c<=122){
-                              
-                 b=c+(k%26);
+        else if(c>=97 && c<=122){       
+                  b=c+(k%26);
                   if(b>122){
                     a=96+Math.abs(Math.abs(122-c)-(k%26));
                   }
@@ -40,8 +39,7 @@ class Result {
                   }
                  str+=(char)a;
         }
-        else if(c>=65 && c<=90){
-                              
+        else if(c>=65 && c<=90){        
                   b=c+(k%26);
                   if(b>90){
                     a=64+Math.abs(Math.abs(90-c)-k%26);

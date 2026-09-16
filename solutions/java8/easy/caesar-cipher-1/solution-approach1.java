@@ -1,12 +1,12 @@
 // ──────────────────────────────────────────────────
-// Link        https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=true
+// Link        https://www.hackerrank.com/contests/mountblue-technologies/challenges/caesar-cipher-1/problem?isFullScreen=true
 // Problem     Caesar Cipher
 // Difficulty  Easy
-// Subdomain   Strings
+// Subdomain   N/A
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-09-16, 07:24 p.m.
+// Submitted   2026-09-16, 07:25 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
@@ -71,8 +71,8 @@ class Result {
                     a=c+Math.abs(k%26);
                   }
                  str+=(char)a;
-              }           
-        }
+              }
+                      }
         else if((32<=c && c<=47)| (58<=c && c<= 64) |(91<=c && c<= 96) |(123<=c && c<= 126)){
             str+=c;
         }
@@ -82,7 +82,7 @@ class Result {
         }
         return str;
     }
-}
+}           
 
 public class Solution {
     public static void main(String[] args) throws IOException {

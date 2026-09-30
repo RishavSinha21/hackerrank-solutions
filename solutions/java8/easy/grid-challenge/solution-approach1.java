@@ -1,8 +1,8 @@
 // ──────────────────────────────────────────────────
-// Link        https://www.hackerrank.com/challenges/grid-challenge/problem?isFullScreen=true
+// Link        https://www.hackerrank.com/contests/mountblue-technologies/challenges/grid-challenge/problem?isFullScreen=true
 // Problem     Grid Challenge
 // Difficulty  Easy
-// Subdomain   Greedy
+// Subdomain   Algorithms
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted

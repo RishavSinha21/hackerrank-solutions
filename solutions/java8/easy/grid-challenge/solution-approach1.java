@@ -1,12 +1,12 @@
 // ──────────────────────────────────────────────────
-// Link        https://www.hackerrank.com/contests/mountblue-technologies/challenges/grid-challenge/problem?isFullScreen=true
+// Link        https://www.hackerrank.com/challenges/grid-challenge/problem?isFullScreen=true
 // Problem     Grid Challenge
 // Difficulty  Easy
-// Subdomain   Algorithms
+// Subdomain   Greedy
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-09-30, 06:09 p.m.
+// Submitted   2026-09-30, 06:11 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;

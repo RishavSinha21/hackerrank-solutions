@@ -1,8 +1,8 @@
 // ──────────────────────────────────────────────────
-// Link        https://www.hackerrank.com/challenges/pangrams/problem?isFullScreen=true
+// Link        https://www.hackerrank.com/contests/mountblue-technologies/challenges/pangrams/problem?isFullScreen=true
 // Problem     Pangrams
 // Difficulty  Easy
-// Subdomain   Strings
+// Subdomain   Algorithms
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted

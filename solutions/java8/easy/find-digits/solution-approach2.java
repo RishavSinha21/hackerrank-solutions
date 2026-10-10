@@ -6,7 +6,7 @@
 // Platform    HackerRank
 // Language    java8
 // Status      Accepted
-// Submitted   2026-10-10, 02:25 p.m.
+// Submitted   2026-10-10, 02:40 p.m.
 // ──────────────────────────────────────────────────
 
 import java.io.*;
